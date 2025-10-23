@@ -9,7 +9,7 @@ label starting_cutscene:
     return
 
 label start:
-    call starting_cutscene from _call_starting_cutscene
+    call starting_cutscene
     scene bg outside
     show detective normal at right
 
