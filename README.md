@@ -1,2 +1,2 @@
 # PDL
-a game about an AI, a detective, and where the limits of consciousness are.
+A game about a detective, an AI, and what it means to be human.
