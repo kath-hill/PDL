@@ -215,3 +215,4 @@ progressive_download.txt
 traceback.txt
 *.bak
 *.rpyc
+.vscode/

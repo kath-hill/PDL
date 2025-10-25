@@ -2,6 +2,10 @@ define detective = Character("Detective")
 define ai = Character("AWaRE")
 
 # image bg outside = "outside_building.png"
+# image bg outside_door_open = "outside_building_door_open.png"
+# image bg inside = "inside_building.png"
+# image bg inside_door_locked = "inside_building_door_locked.png"
+
 image detective normal = "detective_normal.png"
 image ai normal = "ai_normal.png"
 
