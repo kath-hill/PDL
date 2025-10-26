@@ -216,3 +216,4 @@ traceback.txt
 *.bak
 *.rpyc
 .vscode/
+cache/
