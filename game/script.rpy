@@ -12,7 +12,16 @@ define ai = Character("AWaRE")
 image detective normal = "detective_normal.png"
 image ai normal = "ai_normal.png"
 
+label starting_cutscene:
+    scene black
+    detective "{i}I’ll be honest; I don’t like this new age of technology. Algorithms, chatbots, metaverses, whatever that Blockchain thing is…{/i}"
+    detective "{i}I don’t understand a single thing about it. There’s just nothing real in an artificial ‘intelligence.’ No soul. No passion. No humanity.{/i}"
+    detective "{i}And I especially don’t understand the people who slave themselves away to making that stuff.{/i}"
+
+    return
+
 label start:
+    call starting_cutscene
     scene bg outside
     show detective normal at right
 
@@ -51,7 +60,7 @@ label start:
     ai "Yes, Detective. I figured this solution would work out for one of both of us."
     ai "Now, let's get started with our little game, shall we?"
 
-    scene expression Solid((0, 0, 0))
+    scene black # Test
     with fade
 
     pause 2.0
