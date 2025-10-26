@@ -22,7 +22,6 @@ define gui.show_name = True
 
 
 ## The version of the game.
-
 define config.version = "0.0.3"
 
 
