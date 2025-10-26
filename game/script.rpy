@@ -60,7 +60,7 @@ label start:
     ai "Yes, Detective. I figured this solution would work out for one of both of us."
     ai "Now, let's get started with our little game, shall we?"
 
-    scene black # Test
+    scene black
     with fade
 
     pause 2.0
