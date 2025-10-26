@@ -12,12 +12,7 @@ define ai = Character("AWaRE")
 image detective normal = "detective_normal.png"
 image ai normal = "ai_normal.png"
 
-label starting_cutscene:
-    $ renpy.movie_cutscene("cutscenes/starting_cutscene.webm")
-    return
-
 label start:
-    call starting_cutscene from _call_starting_cutscene
     scene bg outside
     show detective normal at right
 
