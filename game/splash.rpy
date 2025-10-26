@@ -15,4 +15,6 @@ label splashscreen:
     hide logo
     with fade
 
+    pause 1.0
+
     return
