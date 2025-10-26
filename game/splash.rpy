@@ -1,4 +1,4 @@
-image logo = "images/logo.png"
+image logo = "images/logo.png" # TODO: Replace with actual logo image
 
 
 label splashscreen:
