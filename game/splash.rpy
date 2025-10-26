@@ -2,7 +2,8 @@ image logo = "images/logo.png" # TODO: Replace with actual logo image
 
 
 label splashscreen:
-    scene black with fade
+    scene black
+    with fade
 
     # Show logo and give it a displayable name
     show logo at truecenter
