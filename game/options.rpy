@@ -178,8 +178,10 @@ init python:
     ## "game/**.ogg" matches ogg files in the game directory or any of its
     ## subdirectories, and "**.psd" matches psd files anywhere in the project.
 
-    ## Classify files as None to exclude them from the built distributions.
+    ## Make the game start in fullscreen mode by default.
+    config.default_fullscreen = True
 
+    ## Classify files as None to exclude them from the built distributions.
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**/.**', None)
