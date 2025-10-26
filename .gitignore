@@ -217,3 +217,4 @@ traceback.txt
 *.rpyc
 .vscode/
 cache/
+navigation.json
