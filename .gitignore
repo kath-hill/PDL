@@ -217,4 +217,4 @@ traceback.txt
 *.rpyc
 .vscode/
 cache/
-navigation.json
+game/saves/navigation.json

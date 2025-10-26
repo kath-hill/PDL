@@ -1,4 +1,4 @@
-image logo = "images/logo.png"
+image logo = "images/logo.png" # TODO: Replace with actual logo image
 
 
 label splashscreen:
@@ -14,5 +14,7 @@ label splashscreen:
     # Hide the logo properly
     hide logo
     with fade
+
+    pause 1.0
 
     return

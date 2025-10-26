@@ -1,6 +1,8 @@
 define detective = Character("Detective")
 define ai = Character("AWaRE")
 
+# TODO: Make game assets
+#
 # image bg outside = "outside_building.png"
 # image bg outside_door_open = "outside_building_door_open.png"
 # image bg inside = "inside_building.png"
