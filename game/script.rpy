@@ -17,6 +17,7 @@ image ai normal = "ai_normal.png"
 
 label starting_cutscene:
     scene black
+    with dissolve
     detective "{i}I’ll be honest; I don’t like this new age of technology. Algorithms, chatbots, metaverses, whatever that Blockchain thing is…{/i}"
     detective "{i}I don’t understand a single thing about it. There’s just nothing real in an artificial ‘intelligence.’ No soul. No passion. No humanity.{/i}"
     detective "{i}And I especially don’t understand the people who slave themselves away to making that stuff.{/i}"
