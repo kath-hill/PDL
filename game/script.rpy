@@ -78,7 +78,7 @@ label start:
     pause 1
 
     detective "This place gives me the creeps..."
-    "*Beep*"
+    "{i}*Beep*{/i}"
     # show detective scared # TODO: Make detective scared
     detective "Hello? Who's there?"
 
