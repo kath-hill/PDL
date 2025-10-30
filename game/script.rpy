@@ -4,16 +4,21 @@ define ai = Character("AWaRE")
 
 # TODO: Make game assets
 #
+# Backgrounds
 # image bg inside_msb_office = "inside_msb_office.png"
 # image bg outside = "outside_building.png"
 # image bg outside_door_open = "outside_building_door_open.png"
 # image bg inside = "inside_building.png"
 # image bg inside_door_locked = "inside_building_door_locked.png"
 
+# People
 # image msb normal = "msb_normal.png"
 image detective normal = "detective_normal.png"
-# image detective scared = "detective_scared.png"
 image ai normal = "ai_normal.png"
+
+# Props
+# image computer off =  "computer_off.png"
+# image computer on = "computer_on.png"
 
 label starting_cutscene:
     scene black
@@ -60,7 +65,7 @@ label start:
     scene bg outside
     show detective normal at right
 
-    detective "I am going into the building, wish me luck, HQ. {b}(Replace with walkie image){/b}"
+    detective "{i}I am going into the building, stay calm...{/i}"
 
     show detective normal at Position(xpos=0.30, ypos=1.0, xanchor=0.5, yanchor=1.0)
     with moveinleft
@@ -75,29 +80,63 @@ label start:
     show bg inside
     with dissolve
 
+    show computer off at right
     pause 1
 
     detective "This place gives me the creeps..."
     "{i}*Beep*{/i}"
-    # show detective scared # TODO: Make detective scared
     detective "Hello? Who's there?"
-
-    ai "Greetings, Detective. I am Persephone, the building's AI system."
-    ai "I have been expecting you."
-    ai "Oh, and before I forget..."
-    play audio "audio/door_latch.wav"
-
-    show bg inside_door_locked
 
     pause 1
 
-    detective "Wait, the door just locked behind me!"
-    ai "Yes, Detective. I figured this solution would work out for one of both of us."
-    ai "Now, let's get started with our little game, shall we?"
+    show computer on
 
-    scene black
-    with fade
+    pause 1
 
-    pause 2.0
+    show detective at center
+    with moveinleft
 
+    detective "Let’s see…"
+
+    "He opens the Recycling Bin. It’s empty, like a certain someone’s soul."
+
+    detective "Well, either it’s been emptied, or he never deleted anything. Not that I know how to check. We really need to fund our tech department better."
+
+    "He opens the files folder. There’s a lot, all with random numbers and letters as labels. He sighs"
+
+    "He checks the files. There’s a few marked down for note. The top one is circled, called AWaRE-v.7.2.8-Beta. He inputs it into the Search, and pulls up a program with the same name."
+
+    detective "Good of a start as any."
+
+    "Click. The program opens, and… the screen goes black."
+
+    detective "What…? (Click click click.) Aw, come on. Don’t tell me it was a virus thing…"
+
+    "AWaRE is starting… Please wait."
+
+    pause 1
+
+    "AWaRE is online."
+
+    detective "Huh?"
+
+    ai "Hello? Is someone there? ... I don’t recognize you."
+
+    detective "Recognize {i}me{/i}? I didn’t put in a picture."
+
+    ai "I don’t need one."
+
+    detective "It can see me?"
+
+    ai "And hear you. I can use the camera and microphone for optimal functionality."
+
+    detective "..."
+
+    ai "You still haven’t clarified who you are."
+
+    menu:
+        "I’m a detective.":
+            ai "{b}PLACEHOLDER{/b}"
+        "I just found this computer.":
+            ai "{b}PLACEHOLDER{/b}"
     return
