@@ -8,6 +8,7 @@ define ai = Character("AWaRE")
 # image bg inside = "inside_building.png"
 # image bg inside_door_locked = "inside_building_door_locked.png"
 
+# image msb normal = "msb_normal.png"
 # image detective scared = "detective_scared.png"
 image detective normal = "detective_normal.png"
 image ai normal = "ai_normal.png"
