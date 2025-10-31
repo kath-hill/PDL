@@ -114,11 +114,11 @@ label start:
 
     "AWaRE is starting… Please wait."
 
+    detective "Huh?"
+
     pause 1
 
     "AWaRE is online."
-
-    detective "Huh?"
 
     ai "Hello? Is someone there? ... I don’t recognize you."
 
@@ -141,5 +141,8 @@ label start:
             ai "... Detective Daniel Reeds of the Middlesex County Police Department."
             detective "W-what the..?"
             ai "It would do you good not to lie to me. I have access to the internet."
+
+    detective "Concerning Gammbel’s - I mean, Parker’s death…"
+    detective "{b}PLACEHOLDER{/b}"
 
     return
