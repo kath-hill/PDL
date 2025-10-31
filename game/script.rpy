@@ -136,7 +136,10 @@ label start:
 
     menu:
         "I’m a detective.":
-            ai "{b}PLACEHOLDER{/b}"
+            ai "I see... an investigation into Parker’s death has begun."
         "I just found this computer.":
-            ai "{b}PLACEHOLDER{/b}"
+            ai "... Detective Daniel Reeds of the Middlesex County Police Department."
+            detective "W-what the..?"
+            ai "It would do you good not to lie to me. I have access to the internet."
+
     return
