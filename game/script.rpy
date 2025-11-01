@@ -143,6 +143,6 @@ label start:
             ai "It would do you good not to lie to me. I have access to the internet."
 
     detective "Concerning Gammbel’s - I mean, Parker’s death…"
-    detective "{b}PLACEHOLDER{/b}"
+    detective "{color=#f00}{b}PLACEHOLDER{/b}{/color}"
 
     return
