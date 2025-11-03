@@ -13,8 +13,8 @@ define ai = Character("AWaRE")
 
 # People
 # image msb normal = "msb_normal.png"
-image detective normal = "detective_normal.png"
-image ai normal = "ai_normal.png"
+image detective normal = "characters/detective_normal.png"
+image ai normal = "characters/ai_normal.png"
 
 # Props
 # image computer off =  "computer_off.png"
@@ -142,7 +142,18 @@ label start:
             detective "W-what the..?"
             ai "It would do you good not to lie to me. I have access to the internet."
 
-    detective "Concerning Gammbel’s - I mean, Parker’s death…"
-    detective "{color=#f00}{b}PLACEHOLDER{/b}{/color}"
+    detective "Concerning your creator’s death… there’s some things that the investigators can’t figure out."
+
+    ai "I’m assuming that’s why you’re here. You think I know something."
+
+    menu:
+        "I do.":
+            ai "...Do you, now."
+        "I don't":
+            ai "So then... why are you here?"
+ 
+            detective "To settle my own nerves, I guess. A robot isn’t capable of taking a life. There’s rules and stuff to prevent that, right? The three golden rules or something."
+
+            ai "Are you thinking about ‘I, Robot’s three laws of robotics? That’s just a book. It’s fiction."
 
     return
