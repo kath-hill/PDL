@@ -44,7 +44,7 @@ label starting_cutscene:
 
     msb "..."
 
-    detective "It’s seven A.M. I’m scheduled to start work at nine."
+    detective "It’s 7 AM. I’m scheduled to start work at nine."
 
     msb "Yes, well-"
 
