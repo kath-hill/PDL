@@ -6,4 +6,4 @@ a game about a detective, an AI, and what it means to be human.
 - Unzip .zip archive
 - Execute main executable
 
-Thank you for playing PDL!
+Thank you all for playing PDL!
