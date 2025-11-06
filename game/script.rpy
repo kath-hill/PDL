@@ -102,7 +102,13 @@ label start:
 
     detective "Well, either it’s been emptied, or he never deleted anything. Not that I know how to check. We really need to fund our tech department better."
 
-    "He opens the files folder. There’s a lot, all with random numbers and letters as labels. He sighs"
+    "He opens the files folder. There’s a lot, all with random numbers and letters as labels."
+
+    "He sees a list of particular numbers that catch his eye."
+
+    detective "Are these... Bank account numbers?"
+
+    "He sighs."
 
     "He checks the files. There’s a few marked down for note. The top one is circled, called AWaRE-v.7.2.8-Beta. He inputs it into the Search, and pulls up a program with the same name."
 
