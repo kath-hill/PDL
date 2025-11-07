@@ -1,6 +1,5 @@
 image logo = "images/logo.png" # TODO: Replace with actual logo image
 
-
 label splashscreen:
     scene black
     with fade
@@ -10,12 +9,14 @@ label splashscreen:
     with dissolve
     play sound "audio/splash_tone.wav"
 
-    pause 4.0
+    # Unskippable pause
+    $ renpy.pause(4.0, hard=True)
 
     # Hide the logo properly
     hide logo
     with fade
 
-    pause 1.0
+    # Short unskippable delay before continuing
+    $ renpy.pause(1.0, hard=True)
 
     return
