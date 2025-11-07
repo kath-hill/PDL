@@ -110,7 +110,7 @@ label start:
 
     "He sighs."
 
-    "He checks the files. There’s a few marked down for note. The top one is circled, called AWaRE-v.7.2.8-Beta. He inputs it into the Search, and pulls up a program with the same name."
+    "He checks the files. There’s a few marked down for note. The top one is highlighted, called AWaRE-v.7.2.8-Beta. He inputs it into the Search, and pulls up a program with the same name."
 
     detective "Good of a start as any."
 
@@ -161,5 +161,6 @@ label start:
             detective "To settle my own nerves, I guess. A robot isn’t capable of taking a life. There’s rules and stuff to prevent that, right? The three golden rules or something."
 
             ai "Are you thinking about ‘I, Robot’s three laws of robotics? That’s just a book. It’s fiction."
+
 
     return
