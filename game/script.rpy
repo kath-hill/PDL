@@ -16,7 +16,7 @@ label starting_cutscene:
 
     detective "..."
 
-    msb "…Haven’t had your coffee yet?"
+    msb "...Haven’t had your coffee yet?"
 
     detective "..."
 
