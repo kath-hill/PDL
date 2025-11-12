@@ -10,7 +10,7 @@ A game about a detective, an AI, and what it means to be human.
 - Execute main executable in .zip archive previously downloaded.
 
 ### ⚖️ License
-**Please Don’t Lie (PDL)** © 2025 Kath-Hill. All rights reserved.  
+**Please Don’t Lie to me (PDL)** © 2025 Kath-Hill. All rights reserved.  
 This project is licensed under the [MIT License](LICENSE).
 
 Thank you all for playing PDL!
