@@ -133,7 +133,16 @@ label start:
     menu:
         "I do.":
             ai "...Do you, now."
-        "I don't":
+            
+            detective "all of my sources at the station point me to this location"
+            
+            ai "what station do you speak of"
+           
+            detective "im surprised you don't know already"
+           
+            ai "I may be a super computer but i cant know everything off looks alone"
+        
+            "I don't":
             ai "So then... why are you here?"
  
             detective "To settle my own nerves, I guess. A robot isn’t capable of taking a life. There’s rules and stuff to prevent that, right? The three golden rules or something."
