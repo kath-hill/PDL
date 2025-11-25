@@ -75,6 +75,8 @@ label start:
     show detective at center
     with moveinleft
 
+    "He boots up the computer. He appears frustrated at first, not knowing what to click on."
+
     detective "Let’s see…"
 
     "He opens the Recycling Bin. It’s empty, like a certain someone’s soul."
@@ -95,7 +97,7 @@ label start:
 
     "Click. The program opens, and… the screen goes black."
 
-    detective "What…? (Click click click.) Aw, come on. Don’t tell me it was a virus thing…"
+    detective "What...? (Click click click.) Aw, come on. Don’t tell me it was a virus thing…"
 
     "AWaRE is starting… Please wait."
 
