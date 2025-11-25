@@ -1,9 +1,10 @@
 label starting_cutscene:
     scene black
     with dissolve
-    detective "{i}I’ll be honest; I don’t like this new age of technology. Algorithms, chatbots, metaverses, whatever that Blockchain thing is…{/i}"
+    detective "{i}I’ll be honest; I don’t like this new age of technology. Algorithms, chatbots, metaverses, whatever that Blockchain thing is...{/i}"
     detective "{i}I don’t understand a single thing about it. There’s just nothing real in an artificial ‘intelligence.’ No soul. No passion. No humanity.{/i}"
     detective "{i}And I especially don’t understand the people who slave themselves away to making that stuff.{/i}"
+
     scene bg inside_msb_office
     show msb normal at left
     show detective normal at right
@@ -20,13 +21,13 @@ label starting_cutscene:
 
     detective "..."
 
-    msb "..."
+    msb "...???"
 
     detective "It’s 7 AM. I’m scheduled to start work at nine."
 
     msb "Yes, well-"
 
-    detective "What did you need me for? I better be paid for the extra time, by the way."
+    detective "What did you need me for? I better be paid overtime, by the way."
 
     msb "I need you to be on this case, you are the smartest investigator we’ve got!"
 
@@ -74,6 +75,8 @@ label start:
     show detective at center
     with moveinleft
 
+    "He boots up the computer. He appears frustrated at first, not knowing what to click on."
+
     detective "Let’s see…"
 
     "He opens the Recycling Bin. It’s empty, like a certain someone’s soul."
@@ -94,7 +97,7 @@ label start:
 
     "Click. The program opens, and… the screen goes black."
 
-    detective "What…? (Click click click.) Aw, come on. Don’t tell me it was a virus thing…"
+    detective "What...? (Click click click.) Aw, come on. Don’t tell me it was a virus thing…"
 
     "AWaRE is starting… Please wait."
 
@@ -133,6 +136,14 @@ label start:
     menu:
         "I do.":
             ai "...Do you, now."
+
+            detective "I’m just making an inquiry."
+
+            detective "You might have information regarding his last moments, or who else he was in contact with. Something to help us give reason to his death."
+
+            ai "Reason..."
+
+            detective "Exactly."
         "I don't":
             ai "So then... why are you here?"
  
