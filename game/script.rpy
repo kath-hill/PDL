@@ -136,6 +136,14 @@ label start:
     menu:
         "I do.":
             ai "...Do you, now."
+
+            detective "I’m just making an inquiry."
+
+            detective "You might have information regarding his last moments, or who else he was in contact with. Something to help us give reason to his death."
+
+            ai "Reason..."
+
+            detective "Exactly."
         "I don't":
             ai "So then... why are you here?"
  
