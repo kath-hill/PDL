@@ -27,7 +27,7 @@ label starting_cutscene:
 
     msb "Yes, well-"
 
-    detective "What did you need me for? I better be paid for the extra time, by the way."
+    detective "What did you need me for? I better be paid overtime, by the way."
 
     msb "I need you to be on this case, you are the smartest investigator we’ve got!"
 
