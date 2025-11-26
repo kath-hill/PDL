@@ -1,0 +1,51 @@
+name: "Feature Request"
+description: "Propose a fresh new idea to enhance the project."
+title: "Feature Request: "
+labels: ["enhancement", "Feature Request"]
+assignees: ["kath-hill"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: "Feature Summary"
+      description: "Give us the elevator pitch. What’s the idea?"
+      placeholder: "Add support for intergalactic multiplayer..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Why This Matters"
+      description: "Explain why this feature is important, useful, or straight-up legendary."
+      placeholder: "This would allow players to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed Solution"
+      description: "How do you think this should work?"
+      placeholder: "My 300 IQ plan is..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives Considered"
+      description: "If you explored other ideas, share them here."
+      placeholder: "Another option was..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: "Additional Context"
+      description: "Screenshots? References? Wild dreams? Drop it all here."
+      placeholder: "Context, images, diagrams, memes..."
+    validations:
+      required: false
