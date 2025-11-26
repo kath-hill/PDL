@@ -91,7 +91,7 @@ label start:
 
     "He sighs."
 
-    "He checks the files. There’s a few marked down for note. The top one is highlighted, called AWaRE-v.7.2.8-Beta. He inputs it into the search, and pulls up a program with the same name."
+    "He checks the files. There’s a few marked down for note. The top one is highlighted, called AWaRE-v.7.2.8-Beta. He inputs it into the Search, and pulls up a program with the same name."
 
     detective "Good of a start as any."
 
