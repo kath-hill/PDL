@@ -44,7 +44,7 @@ label start:
     scene bg outside
     show detective normal at right
 
-    detective "{i}I am going into the building, stay calm...{/i}"
+    detective "{i}I'm going into the building, stay calm...{/i}"
 
     show detective normal at Position(xpos=0.30, ypos=1.0, xanchor=0.5, yanchor=1.0)
     with moveinleft
@@ -81,13 +81,13 @@ label start:
 
     "He opens the Recycling Bin. It’s empty, like a certain someone’s soul."
 
-    detective "Well, either it’s been emptied, or he never deleted anything. Not that I know how to check. We really need to fund our tech department better."
+    detective "Well, either it’s been emptied or he never deleted anything. Not that I know how to check. We really need to fund our tech department better."
 
     "He opens the files folder. There’s a lot, all with random numbers and letters as labels."
 
     "He sees a list of particular numbers that catch his eye."
 
-    detective "Are these... Bank account numbers?"
+    detective "Are these... bank account numbers?"
 
     "He sighs."
 
@@ -139,7 +139,7 @@ label start:
 
             detective "I’m just making an inquiry."
 
-            detective "You might have information regarding his last moments, or who else he was in contact with. Something to help us give reason to his death."
+            detective "You might have information regarding his last moments or who else he was in contact with. Something to help us give reason to his death."
 
             ai "Reason..."
 
