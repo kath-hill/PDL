@@ -1,0 +1,105 @@
+name: "Bug Report"
+description: "Report a reproducible bug so the maintainers can investigate and fix it."
+title: "Bug: "
+labels: ["bug"]
+assignees: ["kath-hill", "Natuworkguy"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: "Short summary"
+      description: "Briefly describe the bug in one sentence."
+      placeholder: "App crashes when clicking 'Save'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "Step-by-step instructions to reproduce the bug. Be as specific as possible."
+      placeholder: |
+        1. Open the app
+        2. Go to Settings -> Export
+        3. Click 'Save'
+        4. Observe the crash
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      description: "Explain what you expected to happen."
+      placeholder: "The file should save and a confirmation toast should appear."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual behavior"
+      description: "Explain what actually happened, including error messages."
+      placeholder: "The app froze and an 'Unhandled Exception' dialog was shown."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / stack trace"
+      description: "Paste any relevant logs, stack traces, or console output."
+      placeholder: |
+        Traceback (most recent call last): ...
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "OS, browser (with version), app version, or other environment details."
+      placeholder: "macOS 14.2, Chrome 120.0, PDL v1.2.3"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Severity"
+      description: "How severe is the problem for your workflow?"
+      options:
+        - "Blocker — app unusable"
+        - "High — major feature broken"
+        - "Medium — partial loss of functionality"
+        - "Low — cosmetic / minor"
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproducible
+    attributes:
+      label: "Frequency / reproducibility"
+      description: "Does this happen every time or intermittently? If intermittent, how often?"
+      placeholder: "Always / 1 in 10 times / only on first run"
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots / recordings"
+      description: "Attach screenshots, GIFs, or links to recordings that show the issue."
+      placeholder: "Paste images or links here"
+    validations:
+      required: false
+
+  - type: textarea
+    id: workarounds
+    attributes:
+      label: "Workarounds / additional context"
+      description: "Any known workarounds, related issues, or extra context that might help."
+      placeholder: "Temporarily fixed by restarting the app. Possibly related to issue #123."
+    validations:
+      required: false
