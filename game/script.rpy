@@ -40,6 +40,8 @@ label starting_cutscene:
     return
 
 label start:
+    stop music fadeout 1.0
+
     call starting_cutscene
     scene bg outside
     show detective normal at right
