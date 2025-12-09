@@ -3,3 +3,6 @@ Core Files:
 
 gitignore:
   - '.gitignore'
+
+Actions:
+  - '.github/workflows/**'
