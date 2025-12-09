@@ -220,3 +220,4 @@ traceback.txt
 .idea/
 cache/
 game/saves/navigation.json
+_ignore/
