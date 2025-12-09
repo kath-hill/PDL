@@ -1,0 +1,5 @@
+Core Files:
+  - '**/*.rpy'
+
+gitignore:
+  - '.gitignore'
